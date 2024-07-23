@@ -1,10 +1,10 @@
+import { Gallery } from "./Components/20240723/Gallery";
 
-import { ScoreWrapper } from "./Components/20240723/ScoreWrapper";
 
 function App() {
   return (
     <>
-      <ScoreWrapper />
+      <Gallery />
     </>
   );
 }

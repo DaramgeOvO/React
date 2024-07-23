@@ -1,7 +1,11 @@
+import { AvatarWrapper } from "./Components/20240723/AvatarWrapper";
 
 function App() {
-  
-  return <div>Hello ReactWorld!</div>;
+  return (
+    <>
+      <AvatarWrapper />
+    </>
+  );
 }
 
 export default App;

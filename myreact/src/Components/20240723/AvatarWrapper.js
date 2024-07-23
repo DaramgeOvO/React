@@ -1,0 +1,31 @@
+import styled from "styled-components";
+import { Avatar } from "./Avatar";
+
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+`
+
+const persons = [
+    {name: "Steve", job: "Programmer", country: "대한민국"},
+    {name: "Tom", job: "Student", country: "USA"},
+    {name: "Adrian", job: "Engineer", country: "France"},
+    {name: "Max", job: "Painter", country: "Germerny"},
+];
+
+const colors = ["#ffb6b9","#bbd1de","#fbb282","#c8d3cb"];
+
+export function AvatarWrapper() {
+    return <>
+        <Container>
+            {
+                persons.map((p, i) => 
+                <Avatar person = {p} 
+                bgcolor = {colors[i]}/>)
+            }
+        </Container>
+    </>;
+}

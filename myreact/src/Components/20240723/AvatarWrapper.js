@@ -16,6 +16,9 @@ const persons = [
     {name: "Max", job: "Painter", country: "Germerny"},
 ];
 
+// const {name, job, country} = 객체를 리턴하는 함수();
+// const [x0, x1, x2] = 배열을 리턴하는 함수();
+
 const colors = ["#ffb6b9","#bbd1de","#fbb282","#c8d3cb"];
 
 export function AvatarWrapper() {

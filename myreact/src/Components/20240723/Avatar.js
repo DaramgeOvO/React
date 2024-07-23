@@ -15,13 +15,13 @@ const Bold = styled.p`
     color: white;
 `
 
-export function Avatar( { person, bgcolor } ) {
+export function Avatar( { person: {name, job, country}, bgcolor } ) {
     return<>
         <Container bgcolor ={bgcolor}>
             <div>
-                <Bold>{person.name}</Bold>
-                <p>{person.job}</p>
-                <p>{person.country}</p>
+                <Bold>{name}</Bold>
+                <p>{job}</p>
+                <p>{country}</p>
                 <hr />
             </div>
         </Container>

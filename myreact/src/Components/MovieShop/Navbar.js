@@ -7,6 +7,7 @@ const Container = styled.div`
   display: flex;
   background-color: #f0d0e7;
   position: relative;
+  justify-content: space-evenly;
 `;
 const StyledLink = styled(Link)`
   text-decoration: none;

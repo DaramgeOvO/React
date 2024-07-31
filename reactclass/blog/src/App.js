@@ -68,6 +68,12 @@ Componet 유의사항
 1. 이름은 대괄호
 2. return() 안에 있는건 태그 하나로 묶어야됨
  - return() 내부를 묶을 때 의미없는 <div> 쓰기 싫으면 <></>
+어떤걸 Component로 만들면 좋을까
+1. 반복출현하는 HTML 덩어리들
+2. 자주 변경되는 HTML UI들
+3. 다른 페이지 만들 때도 컴포넌트로 만듬
+Component 많이 만들면 단점
+1. state 쓸때 복잡해짐
 */
 function Modal() {
   return (

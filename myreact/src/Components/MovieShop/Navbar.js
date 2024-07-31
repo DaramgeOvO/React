@@ -5,20 +5,19 @@ import styled from "styled-components";
 const Container = styled.div`
   width: 100%;
   display: flex;
-  background-color: #f0d0e7;
+  background-color: dodgerblue;
   position: relative;
-  justify-content: space-evenly;
 `;
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
   padding: 5px;
-  background-color: #f0d0e7;
+  background-color: dodgerblue;
   &:hover {
-    background-color: #a07fbb;
+    background-color: blue;
   }
   &:active {
-    background-color: #6676b1;
+    background-color: darkblue;
   }
 `;
 export function Navbar() {
